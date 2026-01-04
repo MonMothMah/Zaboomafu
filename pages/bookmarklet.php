@@ -1,6 +1,6 @@
 <?php
 // Individual bookmarklet page
-require_once '../includes/functions.php';
+require_once './includes/functions.php';
 
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 $bookmarklet = getBookmarkletById($id);

@@ -1,6 +1,6 @@
 <?php
 // Home page for the bookmarklet platform
-require_once '../includes/functions.php';
+require_once './includes/functions.php';
 
 // Get top rated and most viewed bookmarklets
 $top_rated = getTopRatedBookmarklets(5);

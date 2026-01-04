@@ -1,6 +1,6 @@
 <?php
 // Category page
-require_once '../includes/functions.php';
+require_once './includes/functions.php';
 
 $category_name = isset($_GET['name']) ? $_GET['name'] : '';
 $bookmarklets = getBookmarkletsByCategory($category_name);

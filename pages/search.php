@@ -1,6 +1,6 @@
 <?php
 // Search page
-require_once '../includes/functions.php';
+require_once './includes/functions.php';
 
 $query = isset($_GET['q']) ? trim($_GET['q']) : '';
 $category = isset($_GET['category']) ? $_GET['category'] : '';

@@ -1,6 +1,6 @@
 <?php
 // How to install bookmarklets page
-require_once '../includes/functions.php';
+require_once './includes/functions.php';
 ?>
 
 <!DOCTYPE html>
